@@ -21,19 +21,15 @@ class Airport:
     def getCoordinates(self):
 
         """
-        gets the IATA code and returns the latitude
-        and longitude related with that IATA code
-
-        **Parameters**\n
-        ----------\n
-        self: IATA code
+        Returns the latitude
+        and longitude related with IATA code
 
         **Returns**\n
         -------\n
         self.lat: latitude
         self.long: longitude
         """
-        
+
         return self.lat, self.long
 
     def getAirportCountry(self):
@@ -42,15 +38,9 @@ class Airport:
         gets the IATA code and returns the country
         of that airport.
 
-        **Parameters**\n
-        ----------\n
-        self: IATA code
-
         **Returns**\n
         -------\n
         self.country: country of the airport
         """
-        
-        return self.country
 
-    
+        return self.country
