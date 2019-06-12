@@ -68,7 +68,7 @@ There is a screenshot of the initial interface the program has when it is opened
 - Currencydict: Holds the information about the currency with a key of countryname.
 ##### Methods
 - getCurrencycode(): A method that takes the dictionary key and sends the address to currency for returning requested data.
-##### 7. CurrencyRate: Stores information from currencyrate.csv.
+#### 7. CurrencyRate: Stores information from currencyrate.csv.
 ###### Attributes
 - Currencyname: Holds the currency’s country name 
 - Code: Currencyrate code
