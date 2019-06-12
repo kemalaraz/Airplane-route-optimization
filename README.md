@@ -15,10 +15,10 @@ There is a screenshot of the initial interface the program has when it is opened
 ![](images/UI_snap.JPG)
 
 ## 3. Program Overview
-### 	3.1. Class Explanations
-#### 		1. Airport: Stores information about the airports that airport.csv file.
+### 3.1. Class Explanations
+#### 1. Airport: Stores information about the airports that airport.csv file.
 Attributes
- Airport_id: ID of the airport
+ Airport_id: ID of the airport \n
  Name: Name of the airport
  City: Cities that an airport located in
  Code: 3 letter IATA code of the airport
