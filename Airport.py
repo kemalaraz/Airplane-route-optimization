@@ -33,8 +33,7 @@ class Airport:
         self.lat: latitude
         self.long: longitude
         """
-
-
+        
         return self.lat, self.long
 
     def getAirportCountry(self):
@@ -51,4 +50,7 @@ class Airport:
         -------\n
         self.country: country of the airport
         """
+        
         return self.country
+
+    
