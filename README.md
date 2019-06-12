@@ -14,3 +14,34 @@ There is a screenshot of the initial interface the program has when it is opened
 
 ![](images/UI_snap.JPG)
 
+## 3. Program Overview
+### 	3.1. Class Explanations
+#### 		1. Airport: Stores information about the airports that airport.csv file.
+Attributes
+ Airport_id: ID of the airport
+ Name: Name of the airport
+ City: Cities that an airport located in
+ Code: 3 letter IATA code of the airport
+ Ica code: 4 letter ICA code of the airport
+ Lat: Latitude of the location that airport is located
+ Long: Longitude that the airport is located in
+ Alt: Altitude of the airport
+ Toffset: Timezone offset
+ DST: Daylight saving time
+ Tz: timezone
+Methods
+ getCoordinates():A method that returns the latitude and longitude of given airport.
+ getCountry(): Returns the country of the given airport
+2. AirportAtlas: Opens airport.csv file and sends the information contained in that file to airport class also have some other methods.
+Attributes
+ Airportdict: A dictionary that holds the information about airports with IATA key.
+Methods
+ loadData():A method that opens airport.csv file, assigns them to a dictionary and sends them to airport class.
+ getAirportCountry ():A method that takes the IATA code and send the address of it to airport class for bringing the airport country.
+ greatCircleDist(): Takes the latitude and longitude of two airports and return the great circle distance between them
+ distanceBetweenAirports(): Takes two IATA codes as input sends them to get coordinates(lat and long) after that sends those to greatCircleDist to get the distance, then sends it back where it is requested
+3. Aircraft: Stores information about the aircrafts.
+Attributes
+ Code: Name of the aircraft
+ Types: Type of the aircraft
+
