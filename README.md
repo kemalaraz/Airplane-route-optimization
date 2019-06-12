@@ -56,7 +56,7 @@ There is a screenshot of the initial interface the program has when it is opened
 ##### Methods
 - loadData():A method that opens aircraft.csv file, assigns them to a dictionary and sends them to aircraft class.
 - getAircraftRanges(): Takes the name of aircraft and with the help of the dictionary sends the address of it to airport class which returns the range of an aircraft and send that value to where it requested.
-5. Currency: Stores information from currency.csv.
+#### 5. Currency: Stores information from currency.csv.
 ##### Attributes
 - Countryname: Holds the currency’s country name
 - Code: Currency code
